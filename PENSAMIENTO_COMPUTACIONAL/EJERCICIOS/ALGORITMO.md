@@ -35,8 +35,11 @@ PASO 3: ASIGNAR VALORES
         MES ACTUAL = 04
         ANO ACTUAL = 2022
 PASO 4: PROCESO 
+        DIAS (DIA ACTUAL - DIA DE NACIMIENTO)
         DIAS = (24-08)
+        MESES = (MES ACTUAL - MES DE NACIMIENTO)
         MESES = (04-05)
+        ANOS = (ANO ACTUAL - ANO DE NACIMIENTO)
         ANOS = (2022-1997)
         TOTALDIAS = ((ANOS*.25 + ANOS*.75)*(365)+((MESES)*30)+DIAS)/365
         EDAD DE MARIA FERNANDA = int(TOTAL DIAS) + "AÑOS"
@@ -45,3 +48,12 @@ PASO 6: FIN
 
 
 # Realice un algoritmo que resuelva la siguiente situación: un producto tenía un precio inicial que debe solicitarse y ahora tiene un nuevo valor, mayor, que también deberá pedirse, determine el porcentaje de incremento del producto. 
+##  INCREMENTO EN EL PRECIO DEL HUEVO 2022
+PASO 1: INICIO
+PASO 2: DECLARAR VARIABLES (INCREMENTO 1K HUEVO, PRECIO HUEVO 1K INICIO 2021, PRECIO HUEVO 1K FINAL 2022)
+PASO 3: ASIGNAR VALORES
+          PRECIO HUEVO 1K INICIO 2021 = 34
+          PRECIO HUEVO 1K FINAL 2022 = 37.90
+PASO 4: PROCESO INCREMENTO 1K HUEVO = ((PRECIO HUEVO 1K FINAL - PRECIO HUEVO IK INICIO)/34)*100
+PASO 5: MOSTRAR INCREMENTO 1K HUEVO
+PASO 6: FIN
