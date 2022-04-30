@@ -68,7 +68,7 @@ EL MENOR ES G
 Reto. Evalúa las siguientes expresiones a la derecha.
 1) (45<120 OR 12<120) = TRUE
 2) (6! =6) && (12>22)) = FALSE
-3) ¬ (128<145 && 12>9) = TRUE
+3) (128<145 && 12>9) = TRUE
 4) “Daniela”< >”DANIELA” = TRUE
 5) 10*20< >210 = TRUE
 
