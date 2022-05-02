@@ -40,4 +40,8 @@ Al estar más próximos al lenguaje humano resultan más fáciles de entender y 
 * Utilizado para desarrollar aplicaciones de todo tipo: nativas e híbridas.
 * Lenguaje de programación, multiparadigma y multinivel.
 
+## BIBLIOGRAFÍA
+https://www.diarlu.com/lenguajes-de-programacion/
+https://www.ecured.cu/Fortran
+https://www.becas-santander.com/es/blog/python-que-es.html#:~:text=Python%20es%20un%20lenguaje%20de,otros%20lenguajes%20como%20Java%20o%20.
 
