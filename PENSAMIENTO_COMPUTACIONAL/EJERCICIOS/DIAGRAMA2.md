@@ -7,7 +7,7 @@ MOSTRAR ("DIGITE EL PRIMER NÚMERO")
 ASIGNAR (numero1)
 MOSTRAR ("DIGITE EL SEGUNDO NÚMERO")
 ASIGNAR (numero2)
-SI numero1>numero2, Mostrar (numero1, " es mayor que " numero2)
+SI numero1>numero2, Mostrar (numero1, " es mayor que " numero2),
 ELSE MOSTRAR(numero2, " es mayor que " numero1)
 FIN
 
@@ -24,8 +24,18 @@ ASIGNAR (calificacion3)
 MOSTRAR ("INDIQUE LA CUARTA CALIFICACIÓN DEL PERIODO")
 ASIGNAR (calificacion4)
 promedio=(calificacion1+calificacion2+calificacion3+calificacion4)/4
-SI promedio>=6, MOSTRAR ("Felicidades pasó el periodo")
+SI promedio>=6, MOSTRAR ("Felicidades pasó el periodo"),
 ELSE MOSTRAR ("Lo sentimos, reprobó y tendrá que repetir el periodo")
+MOSTRAR ("Obtuvo un promedio de ", promedio, " igual o mayor que 6")
 FIN
 
 3. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
+
+INICIO
+DECLARAR (numero)
+MOSTRAR ("INDIQUE UN NÚMERO")
+ASIGNAR (numero)
+SI numero%2==0, MOSTRAR (numero, " es un número par"),
+ELSE MOSTRAR (numero, " es un número impar")
+FIN
+
